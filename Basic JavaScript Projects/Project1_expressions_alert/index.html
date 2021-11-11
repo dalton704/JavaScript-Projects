@@ -3,14 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>Expression alerts</title>
-        <script src="JS/main.js"></script>
     </head>
     <body>
+        <script src="JS/main.js"></script>
         <h2>Button Time!</h2>
         <p>Today's date is:</p>
 
-        <button onclick="displayDate()">Date and Time</button>
+        <button onclick="display()">Date and Time</button>
 
+        <script>
+            function display() {
+              document.getElementById("demo").innerHTML = Date();
+            }
+        </script>
         <p id="demo"></p>
 
     </body>

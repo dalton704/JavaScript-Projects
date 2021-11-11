@@ -19,7 +19,3 @@ document.write(Man); //Called a variable that was assigned earlier
 document.write(", " + Boy)
 document.write("<br>") //New line
 document.write(5+6); //Called an expression
-
-function displayDat() {
-    document.getElementById("demo").innerHTMl = Date();
-}
