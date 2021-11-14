@@ -4,7 +4,7 @@ function my_First_Dictionary() {
         Color: "White",
         Breed: "White Tabby",
         Age: 7,
-        Sound: "Meow"
+        Sound: "Meow",
     };
     document.getElementById("Dictionary").innerHTML = Animal.Color;
 }
