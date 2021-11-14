@@ -1,4 +1,4 @@
-function my_First_Dictionary() {
+function my_First_Dictionary() { //My first Dictionary
     var Animal = {
         Species: "Cat",
         Color: "White",
@@ -6,5 +6,6 @@ function my_First_Dictionary() {
         Age: 7,
         Sound: "Meow",
     };
-    document.getElementById("Dictionary").innerHTML = Animal.Color;
+    delete Animal.Color; //deletes the color key and value in my Animal dictionary
+    document.getElementById("Dictionary").innerHTML = Animal.Color; //Displays the color value on the sceen. But i deleted it so it says undefined
 }
