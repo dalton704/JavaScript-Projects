@@ -17,3 +17,8 @@ function Divide_Function() {
     var divide = 77 / 11;
     document.getElementById("Div").innerHTML = "77 / 11 = " + divide;
 }
+
+function Math_Problem() {
+    var fun = (7 + 11) / 2 + (34 - 7 / 6);
+    document.getElementById("Woo").innerHTML = "(7 + 11) / 2 + (34 - 7 / 6) = " + fun;
+}
