@@ -6,5 +6,5 @@ function my_First_Dictionary() {
         Age: 7,
         Sound: "Meow"
     };
-    document.getElementById("DIctionary").innerHTML = Animal.Color;
+    document.getElementById("Dictionary").innerHTML = Animal.Color;
 }
