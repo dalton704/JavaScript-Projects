@@ -13,11 +13,11 @@ function Balloons(Color, Shape, Price) { //Created a function that made a class 
 var Bill = new Balloons("Red", "Dog", "$10") //used constructors to add to the class
 var Susan = new Balloons("Blue", "Round", "$5")
 var Henry = new Balloons("Red", "Worm", "$7")
-function new_function() { //Functio nto display message using the constructors
+function new_function() { //Function to display message using the constructors
     document.getElementById("New_and_This").innerHTML = "Bill bought a " + Bill.Balloon_Color + " in color " + Bill.Balloon_Shape + " shaped balloon, for " + Bill.Balloon_Price
 }
 
-function Count_function() { //Nested FUnction to count from 9
+function Count_function() { //Nested Function to count from 9
     document.getElementById("Nested_Function").innerHTML = Count();
     function Count() {
         var starting = 5;
