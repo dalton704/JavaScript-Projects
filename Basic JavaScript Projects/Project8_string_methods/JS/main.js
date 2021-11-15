@@ -10,5 +10,10 @@ function Short(){ //Function to make a complete sentence using concat()
 function Split(){  //Function to slice up part of a sentence
     var sentence = "Today has been a really good day!";
     var section = sentence.slice(-9);
-    document.getElementById("Spot").innerHTML = section.toUpperCase(); 
+    document.getElementById("Spot").innerHTML = section.toUpperCase(); //Added to uppercase. MAde the slice capitalized
+}
+
+function Searching(){
+    var Le_Text = "The rain is falling from the clouds.";
+    document.getElementById("search").innerHTML = Le_Text.search("f");
 }
