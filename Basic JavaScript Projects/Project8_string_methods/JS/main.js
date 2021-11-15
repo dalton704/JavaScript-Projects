@@ -1,4 +1,4 @@
-function Short(){
+function Short(){ //Function to make a complete sentence using concat()
     var part_1 = "I am ";
     var part_2 = "creating a ";
     var part_3 = "sentence using ";
@@ -7,8 +7,8 @@ function Short(){
     document.getElementById("Sentence").innerHTML = complete;
 }
 
-function Split(){
+function Split(){  //Function to slice up part of a sentence
     var sentence = "Today has been a really good day!";
     var section = sentence.slice(-9);
-    document.getElementById("Spot").innerHTML = section;
+    document.getElementById("Spot").innerHTML = section.toUpperCase(); 
 }
