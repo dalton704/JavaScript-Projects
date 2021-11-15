@@ -6,3 +6,9 @@ function Short(){
     var complete = part_1.concat(part_2, part_3, part_4);
     document.getElementById("Sentence").innerHTML = complete;
 }
+
+function Split(){
+    var sentence = "Today has been a really good day!";
+    var section = sentence.slice(-9);
+    document.getElementById("Spot").innerHTML = section;
+}
