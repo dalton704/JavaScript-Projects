@@ -33,3 +33,7 @@ function Fixed() {
     document.getElementById("decimals").innerHTML = Z.toFixed(3);
 }
 
+function Value() {
+    var R = "Hello, World!"
+    document.getElementById("hello").innerHTML = R.valueOf();
+}
