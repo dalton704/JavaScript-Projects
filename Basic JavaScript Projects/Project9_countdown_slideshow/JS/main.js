@@ -1,5 +1,5 @@
 function countdown() {
-    var seconds = document.getElementById("seconds").innerHTML.value;
+    var seconds = document.getElementById("seconds").value;
 
     function tick() {
         seconds = seconds - 1;
