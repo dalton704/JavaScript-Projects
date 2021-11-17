@@ -22,3 +22,8 @@ function Number_String() {
     var x = 72
     document.getElementById("string").innerHTML = x.toString();
 }
+
+function Precision() {
+    var Y = 7865.5628909454521846
+    document.getElementById("rounded").innerHTML = Y.toPrecision(8);
+}
