@@ -20,5 +20,5 @@ function Searching(){
 
 function Number_String() {
     var x = 72
-    document.getElementById("string").innerHTML = x.toString
+    document.getElementById("string").innerHTML = x.toString();
 }
