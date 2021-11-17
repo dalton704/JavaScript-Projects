@@ -27,3 +27,9 @@ function Precision() {
     var Y = 7865.5628909454521846
     document.getElementById("rounded").innerHTML = Y.toPrecision(8);
 }
+
+function Fixed() {
+    var Z = 7865.5628909454521846
+    document.getElementById("decimals").innerHTML = Z.toFixed(3);
+}
+
