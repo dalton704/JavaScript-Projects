@@ -17,3 +17,8 @@ function Searching(){
     var Le_Text = "The rain is falling from the clouds.";
     document.getElementById("search").innerHTML = Le_Text.search("f");
 }
+
+function Number_String() {
+    var x = 72
+    document.getElementById("string").innerHTML = x.toString
+}
