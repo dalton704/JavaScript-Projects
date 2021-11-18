@@ -45,7 +45,7 @@ function Lets_Test() {
     var H = "Hello"
     {
         let H = 65
-        document.getElementById("text_2").innerHTML = H
+        document.getElementById("test_2").innerHTML = H
     }
     document.getElementById("test_1").innerHTML = H
 }
