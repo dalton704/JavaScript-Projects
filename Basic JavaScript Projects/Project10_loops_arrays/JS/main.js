@@ -21,5 +21,5 @@ function for_Loop() {
     for (Z = 0; Z < instruments.length; Z++) {
         Content += instruments[Z] + "<br>"
     }
-    document.getElementById("List_of_Instruments").innerHTML = Content
+    document.getElementById("List_of_Instruments").innerHTML = Content;
 }
