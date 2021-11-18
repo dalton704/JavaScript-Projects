@@ -49,3 +49,8 @@ function Lets_Test() {
     }
     document.getElementById("test_1").innerHTML = H
 }
+
+function return_function(name) {
+    return "Hello" + name;
+}
+document.getElementById("return").innerHTML = return_function(Dalton)
