@@ -13,3 +13,13 @@ function Get_Length() { //Function that Gives you how many charcters are in the 
     length = text.length
     document.getElementById("here").innerHTML = length
 }
+
+var instruments = ["Trumpet", "Saxophone", "Bass Drum", "Snare Drum", "Flute", "Clarinet", "French Horn"];
+var Content = " ";
+var Z;
+function for_Loop() {
+    for (Z = 0; Z < instruments.length; Z++) {
+        Content += instruments[Z] + "<br>"
+    }
+    document.getElementById("List_of_Instruments").innerHTML = Content
+}
