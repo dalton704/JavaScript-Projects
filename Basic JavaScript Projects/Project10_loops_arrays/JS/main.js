@@ -31,5 +31,5 @@ function array_Function() { //Array function that creats an array of elemetns an
     Puzzles[2] = "500 Piece";
     Puzzles[3] = "1000 Piece";
     Puzzles[4] = "1500 Piece";
-    document.getElementById("Array").innerHTML = "I have 3 " + Puzzles[3] + " on the table next to me."
+    document.getElementById("Array").innerHTML = "I have three " + Puzzles[3] + " puzzles on the table next to me."
 }
