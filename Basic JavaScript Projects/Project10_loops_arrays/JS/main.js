@@ -26,10 +26,10 @@ function for_Loop() { //For Loop function that displays all elements of instumen
 
 function array_Function() { //Array function that creats an array of elemetns and then displays what is called for in the document.getelementbyid
     var Puzzles = [];
-    Puzzles[0] = "100 Piece";
-    Puzzles[1] = "250 Piece";
-    Puzzles[2] = "500 Piece";
-    Puzzles[3] = "1000 Piece";
-    Puzzles[4] = "1500 Piece";
+    Puzzles[0] = "100 piece";
+    Puzzles[1] = "250 piece";
+    Puzzles[2] = "500 piece";
+    Puzzles[3] = "1000 piece";
+    Puzzles[4] = "1500 piece";
     document.getElementById("Array").innerHTML = "I have three " + Puzzles[3] + " puzzles on the table next to me."
 }
