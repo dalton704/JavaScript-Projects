@@ -36,5 +36,7 @@ function array_Function() { //Array function that creats an array of elemetns an
 
 function constant_function() {
     const Computer = {type:"Desktop", brand:"Alienware", RAM:"32gb"}
-    
+    Computer.type = "Laptop";
+    Computer.CPU = "Intel i7";
+    document.getElementById("Constant").innerHTML = "The " + Computer.type + " I bought has a " + Computer.CPU + " processing unit."
 }
