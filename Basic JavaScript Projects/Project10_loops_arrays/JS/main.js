@@ -33,3 +33,8 @@ function array_Function() { //Array function that creats an array of elemetns an
     Puzzles[4] = "1500 piece";
     document.getElementById("Array").innerHTML = "I have three " + Puzzles[3] + " puzzles on the table next to me."
 }
+
+function constant_function() {
+    const Computer = {type:"Desktop", brand:"Alienware", RAM:"32gb"}
+    
+}
