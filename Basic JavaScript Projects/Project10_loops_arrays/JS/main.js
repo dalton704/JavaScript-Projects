@@ -40,3 +40,12 @@ function constant_function() {
     Computer.CPU = "Intel i7";
     document.getElementById("Constant").innerHTML = "The " + Computer.type + " I bought has an " + Computer.CPU + " processing unit."
 }
+
+function Lets_Test() {
+    var H = "Hello"
+    {
+        let H = 65
+        document.getElementById("text_2").innerHTML = H
+    }
+    document.getElementById("test_1").innerHTML = H
+}
