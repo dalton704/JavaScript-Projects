@@ -64,3 +64,4 @@ let adventurer = {
         return adventurer.Name + ", the " + adventurer.Level + adventurer.Race + adventurer.Class + "traversed many continents."
     }
 }
+document.getElementById("adventure").innerHTML = adventurer.Journey
