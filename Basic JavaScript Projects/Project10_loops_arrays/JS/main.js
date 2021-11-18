@@ -57,11 +57,11 @@ document.getElementById("return").innerHTML = return_function("Dalton")
 
 let adventurer = {
     Race: "Human ",
-    Class: "Wizard ",
+    Class: "Wizard",
     Level: "7 ",
     Name: "Kadgar",
     Journey: function() {
-        return adventurer.Name + ", the " + adventurer.Level + adventurer.Race + adventurer.Class + "traversed many continents."
+        return adventurer.Name + ", the level " + adventurer.Level + adventurer.Race + adventurer.Class + ", traversed many continents."
     }
 };
 document.getElementById("adventure").innerHTML = adventurer.Journey()
