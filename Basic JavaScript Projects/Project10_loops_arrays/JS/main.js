@@ -72,3 +72,4 @@ for (let D = 0; D < 7; D ++) {
     if (D === 5) {break; }
     create += "The number is " + D + "<br>";
 }
+document.getElementById("break").innerHTML = create
