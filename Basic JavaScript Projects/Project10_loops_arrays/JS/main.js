@@ -65,3 +65,10 @@ let adventurer = {
     }
 };
 document.getElementById("adventure").innerHTML = adventurer.Journey()
+
+let create = "";
+for (let D = 0; D < 7; D ++) {
+    if (D === 2) {continue; }
+    if (D === 5) {break; }
+    create += "The number is " + D + "<br>";
+}
