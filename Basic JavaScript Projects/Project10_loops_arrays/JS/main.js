@@ -38,5 +38,5 @@ function constant_function() {
     const Computer = {type:"Desktop", brand:"Alienware", RAM:"32gb"}
     Computer.type = "Laptop";
     Computer.CPU = "Intel i7";
-    document.getElementById("Constant").innerHTML = "The " + Computer.type + " I bought has a " + Computer.CPU + " processing unit."
+    document.getElementById("Constant").innerHTML = "The " + Computer.type + " I bought has an " + Computer.CPU + " processing unit."
 }
