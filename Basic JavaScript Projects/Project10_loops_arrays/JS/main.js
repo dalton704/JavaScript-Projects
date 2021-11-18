@@ -17,9 +17,19 @@ function Get_Length() { //Function that Gives you how many charcters are in the 
 var instruments = ["Trumpet", "Saxophone", "Bass Drum", "Snare Drum", "Flute", "Clarinet", "French Horn"];
 var Content = " ";
 var Z;
-function for_Loop() {
+function for_Loop() { //For Loop function that displays all elements of instuments (above) on their own line.
     for (Z = 0; Z < instruments.length; Z++) {
         Content += instruments[Z] + "<br>"
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
+}
+
+function array_Function() { //Array function that creats an array of elemetns and then displays what is called for in the document.getelementbyid
+    var Puzzles = [];
+    Puzzles[0] = "100 Piece";
+    Puzzles[1] = "250 Piece";
+    Puzzles[2] = "500 Piece";
+    Puzzles[3] = "1000 Piece";
+    Puzzles[4] = "1500 Piece";
+    document.getElementById("Array").innerHTML = "I have 3 " + Puzzles[3] + " on the table next to me."
 }
