@@ -54,3 +54,13 @@ function return_function(name) {
     return "Hello " + name;
 }
 document.getElementById("return").innerHTML = return_function("Dalton")
+
+let adventurer = {
+    Race: "Human ",
+    Class: "Wizard ",
+    Level: "7 ",
+    Name: "Kadgar",
+    Journey: function() {
+        return adventurer.Name + ", the " + adventurer.Level + adventurer.Race + adventurer.Class + "traversed many continents."
+    }
+}
