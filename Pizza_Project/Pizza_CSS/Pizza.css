@@ -1,0 +1,124 @@
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 400px;
+    height: 420px;
+    margin: auto;
+    margin-top:20px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 175px;
+    height: 200px;
+    float: left;
+    padding-left: 25px;
+}
+
+.right {
+    width: 175px;
+    height: 200px;
+    float: right;
+    padding-left: 25px;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top:0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0 0 220px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(238, 28, 37);
+    color: white;
+}
+#btnOrder:hover {
+    background-color: rgb(183, 24, 29);
+}
+
+
+body {
+    height: 100%;
+    background-image: url(Images/Marios-pizza.jpg);
+    background-color: rgb(54, 83, 139);
+    background-repeat: repeat-x;
+    background-position: 5% 20%;
+}
+ h1 {
+     color: #fff;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-shadow: 2px 2px black;
+     text-align: center;
+ }
+
+ h3 {
+     color: #fff;
+     text-shadow: 2px 2px #000;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-decoration: underline;
+ }
+
+ div {
+     color: rgb(115, 247, 110);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/Nav-bar.jpg);
+    background-size: 435px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 101%;
+    text-align: center;
+  }
+li {
+    display: inline;
+    font-size: 50px;
+    color: #FFFFF0;
+    text-shadow: 5px 3px black;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/Nav-bar.jpg);
+    background-size: 435px;
+    margin-top: 152px;
+    margin-bottom: -25px;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 101%;
+    text-align: right;
+}
+
+.footer {
+    opacity: 0;
+}
