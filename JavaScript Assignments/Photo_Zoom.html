@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Zoom</title>
+        <style>
+            @keyframes zoomin {
+                0% { transform: scale(1,1);}
+                50% { transform: scale(1.2,1.2);}
+                100% {transform: scale(1,1);}
+            }
+
+            .zoom img {
+                animation: zoomin 15s forwards;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="CSS/Images/Img_1.jpg" class="zoom">
+    </body>
+</html>
