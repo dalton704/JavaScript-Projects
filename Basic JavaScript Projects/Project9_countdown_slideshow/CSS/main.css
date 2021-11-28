@@ -1,5 +1,15 @@
 * {box-sizing:border-box;}
 
+body{
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 /*Slideshow container*/
 .slideshow-container {
     max-width: 1000px;
