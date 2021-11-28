@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="CSS/CSS_1.css">
+        <script src="JavaScript/JavaScript_2.js" defer></script>
+    </head>
+
+    <body>
+        <h3 class="Header">Enter your contact information below.</h3>
+        <br>
+        <form class="contact" name="myForm" onsubmit="validateform()" method="post">
+            <label for="fname" class="Text">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname" class="Text">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email" class="Text">Email Address:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone" class="Text">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <br>
+            <input type="submit" class="button" value="Submit">
+        </form>
+    </body>
+</html>
