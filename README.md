@@ -6,5 +6,5 @@
 <ul>
   <li><a href = "https://github.com/dalton704/JavaScript-Projects/tree/main/Pizza_Project">Pizza Menu</a></li>
   <li>Tic-Tac-Toe</li>
-  <li>Calculator</li>
+  <li><a href = "https://github.com/dalton704/JavaScript-Projects/tree/main/Calculator">Calculator</a></li>
 </ul>
