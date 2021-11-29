@@ -1,3 +1,5 @@
 # JavaScript-Projects
 
-All of my JavaScript Assignments for The Tech Academy will be in this repository.
+<p>These are some of the projects I made using JavaScript</p>
+<hr>
+<br>
