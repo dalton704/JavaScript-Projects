@@ -3,6 +3,7 @@
 <p>These are some of the projects I made using JavaScript</p>
 <hr>
 <br>
+<h2>Projects</h2>
 <ul>
   <li><a href = "https://github.com/dalton704/JavaScript-Projects/tree/main/Pizza_Project">Pizza Menu</a></li>
   <li><a href = "https://github.com/dalton704/JavaScript-Projects/tree/main/TicTacToe">Tic-Tac-Toe</a></li>
