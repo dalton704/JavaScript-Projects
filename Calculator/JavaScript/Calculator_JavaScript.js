@@ -27,7 +27,7 @@ function Input_Digit(digit) {
 function Input_Decimal(dot) {
     //this ensures that accidental clicking of the decimal point doesn't cause bugs in your operations
     if (Calculator.Wait_Second_Operand === true) return;
-    if (Calculator.Display_Value.includes(dot)) {
+    if (!Calculator.Display_Value.includes(dot)) {
         //we are saying that if the display_value does not contain a decimal point we want to add a deciaml point
         Calculator.Display_Value += dot;
     }
